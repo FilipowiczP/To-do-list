@@ -1,16 +1,30 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Urbanist&display=swap");
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Urbanist", sans-serif;
+  max-width: 1024px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.display {
+  display: none !important;
+}
+
+.sortRadio {
+  display: flex;
+}
+
+input {
+  font-size: 16px;
+  padding: 5px;
+  margin: 15px 20px;
+  border: 1px solid rgb(245, 0, 87);
+  outline: none;
 }
