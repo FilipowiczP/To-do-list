@@ -90,7 +90,11 @@ const BodyOfTable = ({ id, task, done, data }: Data) => {
         "Content-Type": "application/json",
       },
     });
-    console.log(data);
+    data.map((element) => {
+      if (element.done === true) {
+        console.log(element);
+      }
+    });
 
     setEdit(!edit);
     event.preventDefault();
